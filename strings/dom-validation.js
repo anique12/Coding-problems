@@ -33,4 +33,5 @@ function validateDOM(string) {
   else return stack.pop();
 }
 
-console.log(validateDOM('<p>hello</p><div></div>'));
+const output = validateDOM('<p>hello</p><div></div>');
+console.log(output);
